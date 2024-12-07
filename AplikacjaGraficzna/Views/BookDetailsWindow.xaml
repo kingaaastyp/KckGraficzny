@@ -1,0 +1,48 @@
+﻿<Window x:Class="AplikacjaGraficzna.Views.BookDetailsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Szczegóły książki" MinHeight="400" MinWidth="600" Background="#F3F4F6"
+        WindowStartupLocation="CenterScreen" SizeToContent="WidthAndHeight">
+    <Grid Margin="20">
+        <Border Background="#FFFFFF" CornerRadius="15" Padding="20" BorderBrush="#1E3A8A" BorderThickness="2">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- Nagłówek -->
+                <TextBlock Text="Szczegóły książki" FontSize="24" FontWeight="Bold" Foreground="#1E3A8A" 
+                           TextAlignment="Center" Margin="0,0,0,20" Grid.Row="0"/>
+
+                <!-- Szczegóły książki -->
+                <StackPanel Grid.Row="1" Margin="10">
+                    <TextBlock Text="Tytuł:" FontSize="16" FontWeight="SemiBold" Foreground="#6B7280"/>
+                    <TextBlock Text="{Binding Title}" FontSize="16" Foreground="#1E3A8A" Margin="0,0,0,10"/>
+
+                    <TextBlock Text="Autor:" FontSize="16" FontWeight="SemiBold" Foreground="#6B7280"/>
+                    <TextBlock Text="{Binding Author}" FontSize="16" Foreground="#1E3A8A" Margin="0,0,0,10"/>
+
+                    <TextBlock Text="Gatunek:" FontSize="16" FontWeight="SemiBold" Foreground="#6B7280"/>
+                    <TextBlock Text="{Binding Genre}" FontSize="16" Foreground="#1E3A8A" Margin="0,0,0,10"/>
+
+                    <TextBlock Text="Rok:" FontSize="16" FontWeight="SemiBold" Foreground="#6B7280"/>
+                    <TextBlock Text="{Binding Year}" FontSize="16" Foreground="#1E3A8A" Margin="0,0,0,10"/>
+
+                    <TextBlock Text="Liczba stron:" FontSize="16" FontWeight="SemiBold" Foreground="#6B7280"/>
+                    <TextBlock Text="{Binding PageCount}" FontSize="16" Foreground="#1E3A8A" Margin="0,0,0,10"/>
+
+                    <TextBlock Text="Opis:" FontSize="16" FontWeight="SemiBold" Foreground="#6B7280"/>
+                    <TextBlock Text="{Binding Description}" FontSize="16" Foreground="#1E3A8A" 
+                               TextWrapping="Wrap" Margin="0,0,0,10" TextAlignment="Justify"/>
+                </StackPanel>
+
+                <!-- Przycisk Zamknij -->
+                <Button Content="Zamknij" Grid.Row="2" HorizontalAlignment="Center" Margin="0,10,0,0"
+                        Width="120" Height="40" Click="CloseButton_Click" 
+                        Background="#EF4444" Foreground="White" FontWeight="Bold" />
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

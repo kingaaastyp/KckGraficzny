@@ -1,0 +1,411 @@
+[
+  {
+    "Title": "W\u0142adca Pier\u015Bcieni",
+    "Author": "J.R.R. Tolkien",
+    "Genre": "Fantasy",
+    "PageCount": 1178,
+    "Year": 1954,
+    "Description": "Epicka powie\u015B\u0107 fantasy o walce dobra ze z\u0142em w \u015Bwiecie \u015Ar\u00F3dziemia."
+  },
+  {
+    "Title": "Duma i Uprzedzenie",
+    "Author": "Jane Austen",
+    "Genre": "Romanse",
+    "PageCount": 432,
+    "Year": 1813,
+    "Description": "Klasyczna powie\u015B\u0107 o mi\u0142o\u015Bci i uprzedzeniach w XIX-wiecznej Anglii."
+  },
+  {
+    "Title": "Zbrodnia i Kara",
+    "Author": "Fiodor Dostojewski",
+    "Genre": "Dramat",
+    "PageCount": 671,
+    "Year": 1866,
+    "Description": "Historia m\u0142odego cz\u0142owieka, kt\u00F3ry pope\u0142nia zbrodni\u0119 i walczy z poczuciem winy."
+  },
+  {
+    "Title": "Pan Tadeusz",
+    "Author": "Adam Mickiewicz",
+    "Genre": "Epopeja",
+    "PageCount": 352,
+    "Year": 1834,
+    "Description": "Epopeja narodowa opowiadaj\u0105ca o \u017Cyciu szlachty polskiej na Litwie, pe\u0142na patriotyzmu, mi\u0142o\u015Bci i t\u0119sknoty za utracon\u0105 ojczyzn\u0105."
+  },
+  {
+    "Title": "Romeo i Julia ",
+    "Author": "William Shakespeare",
+    "Genre": "Dramat",
+    "PageCount": 152,
+    "Year": 1597,
+    "Description": "Tragiczna historia o mi\u0142o\u015Bci dwojga m\u0142odych kochank\u00F3w z wrogich rod\u00F3w, kt\u00F3rej si\u0142a przekracza bariery nienawi\u015Bci i prowadzi do dramatycznego fina\u0142u."
+  },
+  {
+    "Title": "1984",
+    "Author": "George Orwell",
+    "Genre": "Science Fiction",
+    "PageCount": 328,
+    "Year": 1949,
+    "Description": "Dystopijna wizja totalitarnego spo\u0142ecze\u0144stwa kontrolowanego przez Wielkiego Brata."
+  },
+  {
+    "Title": "Sto Lat Samotno\u015Bci",
+    "Author": "Gabriel Garc\u00EDa M\u00E1rquez",
+    "Genre": "Realizm Magiczny",
+    "PageCount": 417,
+    "Year": 1967,
+    "Description": "Historia rodziny Buend\u00EDa i ich \u017Cycia w magicznym miasteczku Macondo."
+  },
+  {
+    "Title": "Mistrz i Ma\u0142gorzata",
+    "Author": "Michai\u0142 Bu\u0142hakow",
+    "Genre": "Fantasy",
+    "PageCount": 384,
+    "Year": 1966,
+    "Description": "Tajemnicza historia mi\u0142o\u015Bci, diabelskich interwencji i moralnych wybor\u00F3w."
+  },
+  {
+    "Title": "Harry Potter i Kamie\u0144 Filozoficzny",
+    "Author": "J.K. Rowling",
+    "Genre": "Fantasy",
+    "PageCount": 223,
+    "Year": 1997,
+    "Description": "Opowie\u015B\u0107 o m\u0142odym czarodzieju, kt\u00F3ry odkrywa swoje przeznaczenie."
+  },
+  {
+    "Title": "Cie\u0144 Wiatru",
+    "Author": "Carlos Ruiz Zaf\u00F3n",
+    "Genre": "Dramat",
+    "PageCount": 565,
+    "Year": 2001,
+    "Description": "M\u0142ody ch\u0142opiec odkrywa tajemnicz\u0105 ksi\u0105\u017Ck\u0119, kt\u00F3ra zmienia jego \u017Cycie."
+  },
+  {
+    "Title": "Hobbit, czyli Tam i Z Powrotem",
+    "Author": "J.R.R. Tolkien",
+    "Genre": "Fantasy",
+    "PageCount": 310,
+    "Year": 1937,
+    "Description": "Przygoda Bilba Bagginsa w \u015Bwiecie \u015Ar\u00F3dziemia."
+  },
+  {
+    "Title": "Zew Cthulhu",
+    "Author": "H.P. Lovecraft",
+    "Genre": "Horror",
+    "PageCount": 216,
+    "Year": 1928,
+    "Description": "Opowie\u015B\u0107 o pradawnych istotach i ich wp\u0142ywie na ludzko\u015B\u0107."
+  },
+  {
+    "Title": "Ma\u0142y Ksi\u0105\u017C\u0119",
+    "Author": "Antoine de Saint-Exup\u00E9ry",
+    "Genre": "Filozoficzna",
+    "PageCount": 96,
+    "Year": 1943,
+    "Description": "Pi\u0119kna opowie\u015B\u0107 o przyja\u017Ani, mi\u0142o\u015Bci i sensie \u017Cycia."
+  },
+  {
+    "Title": "Przemin\u0119\u0142o z Wiatrem",
+    "Author": "Margaret Mitchell",
+    "Genre": "Romans",
+    "PageCount": 1037,
+    "Year": 1936,
+    "Description": "Saga o mi\u0142o\u015Bci i przetrwaniu w czasie wojny secesyjnej."
+  },
+  {
+    "Title": "Sherlock Holmes: Studium w Szkar\u0142acie",
+    "Author": "Arthur Conan Doyle",
+    "Genre": "Krymina\u0142",
+    "PageCount": 224,
+    "Year": 1887,
+    "Description": "Pierwsza sprawa Sherlocka Holmesa i doktora Watsona."
+  },
+  {
+    "Title": "Frankenstein",
+    "Author": "Mary Shelley",
+    "Genre": "Horror",
+    "PageCount": 280,
+    "Year": 1818,
+    "Description": "Historia naukowca, kt\u00F3ry stworzy\u0142 potwora."
+  },
+  {
+    "Title": "Dracula",
+    "Author": "Bram Stoker",
+    "Genre": "Horror",
+    "PageCount": 418,
+    "Year": 1897,
+    "Description": "Klasyczna opowie\u015B\u0107 o wampirze hrabim Draculi."
+  },
+  {
+    "Title": "Krzy\u017Cacy",
+    "Author": "Henryk Sienkiewicz",
+    "Genre": "Historyczna",
+    "PageCount": 784,
+    "Year": 1900,
+    "Description": "Opowie\u015B\u0107 o walkach Polak\u00F3w z Zakonem Krzy\u017Cackim."
+  },
+  {
+    "Title": "Proces",
+    "Author": "Franz Kafka",
+    "Genre": "Dramat",
+    "PageCount": 255,
+    "Year": 1925,
+    "Description": "Historia cz\u0142owieka oskar\u017Conego o przest\u0119pstwo, kt\u00F3rego nie rozumie."
+  },
+  {
+    "Title": "Wilk Stepowy",
+    "Author": "Hermann Hesse",
+    "Genre": "Filozoficzna",
+    "PageCount": 237,
+    "Year": 1927,
+    "Description": "Portret duchowych zmaga\u0144 jednostki w nowoczesnym spo\u0142ecze\u0144stwie."
+  },
+  {
+    "Title": "Piknik na Skraju Drogi",
+    "Author": "Arkadij i Borys Strugaccy",
+    "Genre": "Science Fiction",
+    "PageCount": 224,
+    "Year": 1972,
+    "Description": "Historia tajemniczych obszar\u00F3w zwanych Strefami i ich wp\u0142ywu na ludzi."
+  },
+  {
+    "Title": "Ziemia Obiecana",
+    "Author": "W\u0142adys\u0142aw Reymont",
+    "Genre": "Dramat",
+    "PageCount": 677,
+    "Year": 1899,
+    "Description": "Opowie\u015B\u0107 o przemys\u0142owcach w \u0141odzi w XIX wieku."
+  },
+  {
+    "Title": "Ojciec Chrzestny",
+    "Author": "Mario Puzo",
+    "Genre": "Krymina\u0142",
+    "PageCount": 448,
+    "Year": 1969,
+    "Description": "Historia rodziny mafijnej Corleone."
+  },
+  {
+    "Title": "Buszuj\u0105cy w Zbo\u017Cu",
+    "Author": "J.D. Salinger",
+    "Genre": "Dramat",
+    "PageCount": 277,
+    "Year": 1951,
+    "Description": "Historia dorastania i buntu nastolatka Holdena Caulfielda."
+  },
+  {
+    "Title": "Medaliony",
+    "Author": "Zofia Na\u0142kowska",
+    "Genre": "Reporta\u017C",
+    "PageCount": 120,
+    "Year": 1946,
+    "Description": "Zbi\u00F3r opowiada\u0144 dokumentuj\u0105cych okrucie\u0144stwa wojenne."
+  },
+  {
+    "Title": "Folwark Zwierz\u0119cy",
+    "Author": "George Orwell",
+    "Genre": "Satira",
+    "PageCount": 112,
+    "Year": 1945,
+    "Description": "Alegoryczna opowie\u015B\u0107 o rewolucji i jej skutkach."
+  },
+  {
+    "Title": "Ch\u0142opi",
+    "Author": "W\u0142adys\u0142aw Reymont",
+    "Genre": "Epopeja",
+    "PageCount": 960,
+    "Year": 1924,
+    "Description": "Opowie\u015B\u0107 o \u017Cyciu polskich ch\u0142op\u00F3w na prze\u0142omie XIX i XX wieku."
+  },
+  {
+    "Title": "Podr\u00F3\u017Ce Guliwera",
+    "Author": "Jonathan Swift",
+    "Genre": "Satira",
+    "PageCount": 320,
+    "Year": 1726,
+    "Description": "Przygody Guliwera w fantastycznych krainach."
+  },
+  {
+    "Title": "Nad Niemnem",
+    "Author": "Eliza Orzeszkowa",
+    "Genre": "Dramat",
+    "PageCount": 544,
+    "Year": 1888,
+    "Description": "Opowie\u015B\u0107 o \u017Cyciu szlachty i ch\u0142op\u00F3w w XIX-wiecznej Polsce."
+  },
+  {
+    "Title": "Metro 2033",
+    "Author": "Dmitrij G\u0142uchowski",
+    "Genre": "Science Fiction",
+    "PageCount": 460,
+    "Year": 2005,
+    "Description": "Postapokaliptyczna historia \u017Cycia w moskiewskim metrze."
+  },
+  {
+    "Title": "Pachnid\u0142o",
+    "Author": "Patrick S\u00FCskind",
+    "Genre": "Thriller",
+    "PageCount": 255,
+    "Year": 1985,
+    "Description": "Historia mordercy obdarzonego wyj\u0105tkowym w\u0119chem."
+  },
+  {
+    "Title": "Sapiens: Od Zwierz\u0105t do Bog\u00F3w",
+    "Author": "Yuval Noah Harari",
+    "Genre": "Historia",
+    "PageCount": 443,
+    "Year": 2011,
+    "Description": "Historia ludzko\u015Bci od czas\u00F3w prehistorycznych do wsp\u00F3\u0142czesno\u015Bci."
+  },
+  {
+    "Title": "Katedra Marii Panny w Pary\u017Cu",
+    "Author": "Victor Hugo",
+    "Genre": "Dramat",
+    "PageCount": 940,
+    "Year": 1831,
+    "Description": "Historia mi\u0142o\u015Bci i tragedii w \u015Bredniowiecznym Pary\u017Cu."
+  },
+  {
+    "Title": "Czarnoksi\u0119\u017Cnik z Archipelagu",
+    "Author": "Ursula K. Le Guin",
+    "Genre": "Fantasy",
+    "PageCount": 320,
+    "Year": 1968,
+    "Description": "Opowie\u015B\u0107 o m\u0142odym czarodzieju w \u015Bwiecie Ziemiomorza."
+  },
+  {
+    "Title": "Bracia Karamazow",
+    "Author": "Fiodor Dostojewski",
+    "Genre": "Dramat",
+    "PageCount": 840,
+    "Year": 1880,
+    "Description": "Historia rodzinna pe\u0142na nami\u0119tno\u015Bci, konflikt\u00F3w i pyta\u0144 o moralno\u015B\u0107."
+  },
+  {
+    "Title": "Przygody Tomka Sawyera",
+    "Author": "Mark Twain",
+    "Genre": "Przygoda",
+    "PageCount": 274,
+    "Year": 1876,
+    "Description": "Opowie\u015B\u0107 o przygodach m\u0142odego ch\u0142opca w XIX-wiecznej Ameryce."
+  },
+  {
+    "Title": "W Pustyni i w Puszczy",
+    "Author": "Henryk Sienkiewicz",
+    "Genre": "Przygoda",
+    "PageCount": 384,
+    "Year": 1911,
+    "Description": "Przygody polskich dzieci porwanych w Afryce."
+  },
+  {
+    "Title": "Atlas Chmur",
+    "Author": "David Mitchell",
+    "Genre": "Science Fiction",
+    "PageCount": 528,
+    "Year": 2004,
+    "Description": "Splecione historie z r\u00F3\u017Cnych epok ukazuj\u0105ce wp\u0142yw jednostek na \u015Bwiat."
+  },
+
+  {
+    "Title": "Trylogia Czarnego Maga: Gildia Mag\u00F3w",
+    "Author": "Trudi Canavan",
+    "Genre": "Fantasy",
+    "PageCount": 512,
+    "Year": 2001,
+    "Description": "Historia m\u0142odej dziewczyny odkrywaj\u0105cej swoje magiczne zdolno\u015Bci."
+  },
+  {
+    "Title": "Diuna",
+    "Author": "Frank Herbert",
+    "Genre": "Science Fiction",
+    "PageCount": 688,
+    "Year": 1965,
+    "Description": "Opowie\u015B\u0107 o polityce, religii i walce o przetrwanie na pustynnej planecie."
+  },
+  {
+    "Title": "Wojna i Pok\u00F3j",
+    "Author": "Lew To\u0142stoj",
+    "Genre": "Historyczna",
+    "PageCount": 1225,
+    "Year": 1869,
+    "Description": "Epokowa powie\u015B\u0107 o \u017Cyciu rosyjskiej arystokracji w czasach napoleo\u0144skich."
+  },
+  {
+    "Title": "Pi\u0119\u0107dziesi\u0105t Twarzy Greya",
+    "Author": "E.L. James",
+    "Genre": "Romans",
+    "PageCount": 514,
+    "Year": 2011,
+    "Description": "Historia skomplikowanego zwi\u0105zku mi\u0119dzy m\u0142od\u0105 kobiet\u0105 a przedsi\u0119biorc\u0105."
+  },
+  {
+    "Title": "\u017Bycie Pi",
+    "Author": "Yann Martel",
+    "Genre": "Przygoda",
+    "PageCount": 319,
+    "Year": 2001,
+    "Description": "Historia m\u0142odego ch\u0142opca, kt\u00F3ry prze\u017Cywa rozbicie statku na \u015Brodku oceanu."
+  },
+  {
+    "Title": "Ksi\u0119ga D\u017Cungli",
+    "Author": "Rudyard Kipling",
+    "Genre": "Przygoda",
+    "PageCount": 240,
+    "Year": 1894,
+    "Description": "Opowie\u015Bci o zwierz\u0119tach i ich m\u0142odym przyjacielu Mowglim."
+  },
+  {
+    "Title": "Alchemik",
+    "Author": "Paulo Coelho",
+    "Genre": "Filozoficzna",
+    "PageCount": 208,
+    "Year": 1988,
+    "Description": "Historia m\u0142odego pasterza, kt\u00F3ry poszukuje swojego przeznaczenia."
+  },
+  {
+    "Title": "Gra o Tron",
+    "Author": "George R.R. Martin",
+    "Genre": "Fantasy",
+    "PageCount": 835,
+    "Year": 1996,
+    "Description": "Intrygi i walka o w\u0142adz\u0119 w fantastycznym \u015Bwiecie Westeros."
+  },
+  {
+    "Title": "Zielona Mila",
+    "Author": "Stephen King",
+    "Genre": "Dramat",
+    "PageCount": 400,
+    "Year": 1996,
+    "Description": "Historia niezwyk\u0142ego wi\u0119\u017Ania oskar\u017Conego o morderstwo."
+  },
+  {
+    "Title": "To",
+    "Author": "Stephen King",
+    "Genre": "Horror",
+    "PageCount": 1138,
+    "Year": 1986,
+    "Description": "Grupa dzieci staje do walki z pradawnym z\u0142em w ma\u0142ym miasteczku."
+  },
+  {
+    "Title": "Cie\u0144 i Ko\u015B\u0107",
+    "Author": "Leigh Bardugo",
+    "Genre": "Fantasy",
+    "PageCount": 358,
+    "Year": 2012,
+    "Description": "Historia m\u0142odej dziewczyny, kt\u00F3ra odkrywa swoje niezwyk\u0142e moce."
+  },
+  {
+    "Title": "Podziemny Kr\u0105g",
+    "Author": "Chuck Palahniuk",
+    "Genre": "Dramat",
+    "PageCount": 224,
+    "Year": 1996,
+    "Description": "Historia m\u0119\u017Cczyzny wpl\u0105tanego w brutalny klub walk."
+  },
+  {
+    "Title": "Powr\u00F3t Kr\u00F3la",
+    "Author": "J.R.R. Tolkien",
+    "Genre": "Fantasy",
+    "PageCount": 416,
+    "Year": 1955,
+    "Description": "Kulminacja epickiej walki o losy \u015Ar\u00F3dziemia."
+  }
+]

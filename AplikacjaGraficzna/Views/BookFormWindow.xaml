@@ -1,0 +1,151 @@
+﻿<Window x:Class="AplikacjaGraficzna.Views.BookFormWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:AplikacjaGraficzna.Helpers"
+        Title="Dodaj książkę"
+        Width="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.4}"
+        Height="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Height, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.5}"
+        WindowStartupLocation="CenterScreen"
+        Background="#F3F4F6">
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+        <Grid Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/> <!-- Formularz -->
+                <RowDefinition Height="Auto"/> <!-- Przycisk Zapisz -->
+            </Grid.RowDefinitions>
+
+            <!-- Formularz -->
+            <StackPanel Grid.Row="0" Margin="0,0,0,20" VerticalAlignment="Top">
+                <TextBlock Text="Dodaj Książkę"
+                           FontSize="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.015}"
+                           FontWeight="Bold"
+                           Foreground="#1E3A8A"
+                           TextAlignment="Center"
+                           Margin="0,0,0,30"
+                           HorizontalAlignment="Center"/>
+
+                <!-- Pole: Tytuł -->
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,15" VerticalAlignment="Center">
+                    <TextBlock Text="Tytuł:"
+                               FontSize="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.012}"
+                               FontWeight="SemiBold"
+                               Foreground="#1E3A8A"
+                               Margin="0,0,10,0"
+                               VerticalAlignment="Center"/>
+                    <TextBox x:Name="TitleTextBox"
+                             FontSize="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.012}"
+                             Padding="10,5"
+                             Background="White"
+                             BorderBrush="#D1D5DB"
+                             BorderThickness="1"
+                             Height="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Height, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.04}"
+                             Width="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.35}"/>
+                </StackPanel>
+
+                <!-- Pole: Autor -->
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,15" VerticalAlignment="Center">
+                    <TextBlock Text="Autor:"
+                               FontSize="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.012}"
+                               FontWeight="SemiBold"
+                               Foreground="#1E3A8A"
+                               Margin="0,0,10,0"
+                               VerticalAlignment="Center"/>
+                    <TextBox x:Name="AuthorTextBox"
+                             FontSize="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.012}"
+                             Padding="10,5"
+                             Background="White"
+                             BorderBrush="#D1D5DB"
+                             BorderThickness="1"
+                             Height="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Height, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.04}"
+                             Width="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.35}"/>
+                </StackPanel>
+
+                <!-- Pole: Gatunek -->
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,15" VerticalAlignment="Center">
+                    <TextBlock Text="Gatunek:"
+                               FontSize="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.012}"
+                               FontWeight="SemiBold"
+                               Foreground="#1E3A8A"
+                               Margin="0,0,10,0"
+                               VerticalAlignment="Center"/>
+                    <TextBox x:Name="GenreTextBox"
+                             FontSize="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.012}"
+                             Padding="10,5"
+                             Background="White"
+                             BorderBrush="#D1D5DB"
+                             BorderThickness="1"
+                             Height="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Height, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.04}"
+                             Width="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.35}"/>
+                </StackPanel>
+
+                <!-- Pole: Rok wydania -->
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,15" VerticalAlignment="Center">
+                    <TextBlock Text="Rok wydania:"
+                               FontSize="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.012}"
+                               FontWeight="SemiBold"
+                               Foreground="#1E3A8A"
+                               Margin="0,0,10,0"
+                               VerticalAlignment="Center"/>
+                    <TextBox x:Name="YearTextBox"
+                             FontSize="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.012}"
+                             Padding="10,5"
+                             Background="White"
+                             BorderBrush="#D1D5DB"
+                             BorderThickness="1"
+                             Height="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Height, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.04}"
+                             Width="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.35}"/>
+                </StackPanel>
+
+                <!-- Pole: Liczba stron -->
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,15" VerticalAlignment="Center">
+                    <TextBlock Text="Liczba stron:"
+                               FontSize="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.012}"
+                               FontWeight="SemiBold"
+                               Foreground="#1E3A8A"
+                               Margin="0,0,10,0"
+                               VerticalAlignment="Center"/>
+                    <TextBox x:Name="PageCountTextBox"
+                             FontSize="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.012}"
+                             Padding="10,5"
+                             Background="White"
+                             BorderBrush="#D1D5DB"
+                             BorderThickness="1"
+                             Height="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Height, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.04}"
+                             Width="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.35}"/>
+                </StackPanel>
+
+                <!-- Pole: Opis -->
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,15" VerticalAlignment="Center">
+                    <TextBlock Text="Opis:"
+                               FontSize="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.012}"
+                               FontWeight="SemiBold"
+                               Foreground="#1E3A8A"
+                               Margin="0,0,10,0"
+                               VerticalAlignment="Top"/>
+                    <TextBox x:Name="DescriptionTextBox"
+                             FontSize="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.012}"
+                             Padding="10,5"
+                             Background="White"
+                             BorderBrush="#D1D5DB"
+                             BorderThickness="1"
+                             Height="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Height, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.1}"
+                             Width="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.35}"
+                             TextWrapping="Wrap"
+                             AcceptsReturn="True"/>
+                </StackPanel>
+            </StackPanel>
+
+            <!-- Przycisk Zapisz -->
+            <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Zapisz"
+                        Width="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.15}"
+                        Height="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Height, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.06}"
+                        Background="#2563EB"
+                        Foreground="White"
+                        FontWeight="Bold"
+                        FontSize="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Width, Converter={StaticResource MultiplyConverter}, ConverterParameter=0.02}"
+                        Click="SaveButton_Click"/>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Window>

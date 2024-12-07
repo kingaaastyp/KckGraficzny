@@ -1,0 +1,53 @@
+﻿<Window x:Class="AplikacjaGraficzna.Views.EditBookWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Edytuj Książkę" Height="400" Width="600" Background="#F3F4F6"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/> <!-- Form -->
+            <RowDefinition Height="Auto"/> <!-- Buttons -->
+        </Grid.RowDefinitions>
+
+        <!-- Formularz -->
+        <StackPanel Grid.Row="0" Margin="0,0,0,20">
+            <TextBlock Text="Edytuj Książkę"
+                       FontSize="18"
+                       FontWeight="Bold"
+                       Foreground="#1E3A8A"
+                       TextAlignment="Center"
+                       Margin="0,0,0,20"/>
+
+            <StackPanel Orientation="Vertical" Margin="0,0,0,10">
+                <TextBlock Text="Tytuł:" FontWeight="SemiBold"/>
+                <TextBox x:Name="TitleTextBox" />
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="0,0,0,10">
+                <TextBlock Text="Autor:" FontWeight="SemiBold"/>
+                <TextBox x:Name="AuthorTextBox" />
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="0,0,0,10">
+                <TextBlock Text="Gatunek:" FontWeight="SemiBold"/>
+                <TextBox x:Name="GenreTextBox" />
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="0,0,0,10">
+                <TextBlock Text="Rok Wydania:" FontWeight="SemiBold"/>
+                <TextBox x:Name="YearTextBox" />
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="0,0,0,10">
+                <TextBlock Text="Liczba Stron:" FontWeight="SemiBold"/>
+                <TextBox x:Name="PageCountTextBox" />
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="0,0,0,10">
+                <TextBlock Text="Opis:" FontWeight="SemiBold"/>
+                <TextBox x:Name="DescriptionTextBox" AcceptsReturn="True" TextWrapping="Wrap" Height="100"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Przycisk Zapisz -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="Zapisz" Width="100" Height="30" Margin="5" Click="SaveButton_Click"/>
+            <Button Content="Anuluj" Width="100" Height="30" Margin="5" Click="CancelButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

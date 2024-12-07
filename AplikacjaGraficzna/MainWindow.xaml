@@ -1,0 +1,53 @@
+﻿<Window x:Class="AplikacjaGraficzna.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Album Książek" Height="600" Width="900"
+        WindowStartupLocation="CenterScreen"
+        Background="#F3F4F6">
+    <Grid>
+        <!-- Tło główne -->
+        <Border Background="#FFFFFF" CornerRadius="15" Margin="20">
+            <Border.Effect>
+                <DropShadowEffect Color="Black" ShadowDepth="5" BlurRadius="15" Opacity="0.3"/>
+            </Border.Effect>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20">
+                <!-- Nagłówek -->
+                <TextBlock Text="Album Książek" FontSize="36" FontWeight="Bold" Foreground="#1E3A8A" Margin="0,0,0,20" TextAlignment="Center"/>
+                
+                <!-- Przycisk: Wyświetl książki -->
+                <Button Style="{StaticResource ModernButton}" Click="ShowBooks_Click" Width="250" Height="50" Margin="0,10,0,0">
+                    <TextBlock Text="Wyświetl wszystkie książki" TextAlignment="Center"/>
+                </Button>
+
+                <!-- Przycisk: Szukaj po tytule -->
+                <Button Style="{StaticResource ModernButton}" Click="SearchByTitle_Click" Width="250" Height="50" Margin="0,10,0,0">
+                    <TextBlock Text="Szukaj książki po tytule" TextAlignment="Center"/>
+                </Button>
+
+                <!-- Przycisk: Szukaj po autorze -->
+                <Button Style="{StaticResource ModernButton}" Click="SearchByAuthor_Click" Width="250" Height="50" Margin="0,10,0,0">
+                    <TextBlock Text="Szukaj książki po autorze" TextAlignment="Center"/>
+                </Button>
+
+                <!-- Przycisk: Dodaj książkę -->
+                <Button Style="{StaticResource ModernButton}" Click="AddBook_Click" Width="250" Height="50" Margin="0,10,0,0">
+                    <TextBlock Text="Dodaj książkę" TextAlignment="Center"/>
+                </Button>
+                
+                <Button Style="{StaticResource ModernButton}" Click="EditBook_Click" Width="250" Height="50" Margin="0,10,0,0">
+                    <TextBlock Text="Edytuj książkę" TextAlignment="Center"/>
+                </Button>
+
+                <Button Style="{StaticResource ModernButton}" Click="DeleteBook_Click" Width="250" Height="50" Margin="0,10,0,0">
+                    <TextBlock Text="Usuń książkę" TextAlignment="Center"/>
+                </Button>
+
+
+                <!-- Przycisk: Wyjście -->
+                <Button Style="{StaticResource ModernButtonExit}" Click="Exit_Click" Width="250" Height="50" Margin="0,10,0,0">
+                    <TextBlock Text="Wyjdź" TextAlignment="Center"/>
+                </Button>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
